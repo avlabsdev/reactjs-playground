@@ -1,0 +1,11 @@
+body {
+  @apply container mx-auto flex flex-col my-8 items-center font-bold;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+.btn-default {
+  @apply w-fit mx-auto bg-black text-white py-4 px-8 rounded-full font-medium border-2 border-black hover:bg-zinc-900 hover:shadow-xl;
+}
